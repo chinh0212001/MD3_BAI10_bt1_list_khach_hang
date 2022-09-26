@@ -35,7 +35,7 @@
             </td>
             <td><c:out value="${st.date}"></c:out></td>
             <td><c:out value="${st.address}"></c:out></td>
-            <td style="width: 100%"><img src="image/${st.image}" ></td>
+            <td ><img width="200px" src="image/${st.image}" ></td>
         </tr>
     </c:forEach>
 </table>
